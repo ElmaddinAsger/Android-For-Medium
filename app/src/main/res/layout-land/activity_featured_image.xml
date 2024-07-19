@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:id="@+id/lnlLeft"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Default | Horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#848482"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/firstButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#4F666A"
+                android:layout_margin="2dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/secondButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#A7A6BA"
+                android:layout_margin="2dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/thirdButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#3c5ff2"
+                android:layout_margin="2dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fourthButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#3cf266"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlRight"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vertical"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#848482"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fifthButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#4F666A"
+                android:layout_margin="2dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sixthButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#A7A6BA"
+                android:layout_margin="2dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seventhButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#3c5ff2"
+                android:layout_margin="2dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eighthButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#3cf266"
+                android:layout_margin="2dp"
+                android:text="Social media:"
+                android:textStyle="bold"
+                android:textAlignment="viewEnd"
+                android:textSize="30sp"
+                android:paddingEnd="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

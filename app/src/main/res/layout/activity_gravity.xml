@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnlDefaultOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txtDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <Button
+            android:id="@+id/btnJoinUs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Join us"
+            />
+
+        <Button
+            android:id="@+id/btnClapIt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clap it" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlHorizontalOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/txtHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <Button
+            android:id="@+id/btnJoinUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Join us"
+            />
+
+        <Button
+            android:id="@+id/btnClapIt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clap it" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlVerticalOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <Button
+            android:id="@+id/btnJoinUs3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Join us"
+            />
+
+        <Button
+            android:id="@+id/btnClapIt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clap it" />
+    </LinearLayout>
+
+</LinearLayout>
